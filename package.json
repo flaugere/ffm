@@ -1,0 +1,22 @@
+{
+  "name": "bodyfatcalculator",
+  "version": "0.0.1",
+  "description": "Body fat algorithms",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ./src",
+    "start": "npm install && tsc -w -p ./src",
+    "test": "jest",
+    "testWithCoverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.16",
+    "@types/node": "^6.0.50",
+    "eslint": "6.1.0",
+    "eslint-config-google": "^0.11.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "types": "dist/index.d.ts"
+}
