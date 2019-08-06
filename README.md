@@ -1,10 +1,17 @@
 # Body fat algorithms
 
+[![CircleCI](https://circleci.com/gh/flaugere/bodyfat.svg?style=svg)](https://circleci.com/gh/flaugere/bodyfat)
 Several algorithms to compute body fat according to skin folds or tape measurements.
 
 ## Algorithms
 
 Durnin, JP3, JP4
+
+## Install
+
+```
+npm install bodyfatcalculator
+```
 
 ## Contributing
 
