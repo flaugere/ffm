@@ -1,13 +1,24 @@
 # Body fat algorithms
 
-Several algorithms to compute fat free mass according to skin folds
+Several algorithms to compute body fat according to skin folds or tape measurements.
 
 ## Algorithms
 
 Durnin, JP3, JP4
 
-## Installing
+## Contributing
+
+1) Install GIT 
+
+2) Clone repository
 
 ```
-npm install bodyfatcalculator
+git clone git@github.com:flaugere/bodyfat.git
+cd bodyfat
+```
+
+3) Unit test
+
+```
+npm test
 ```
