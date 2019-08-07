@@ -1,3 +1,5 @@
+import {BodyFat} from '../common/BodyFat'
+
 export default class JP3 {
     /**
      * @param chest number Chest skinfold (mm)
@@ -10,6 +12,6 @@ export default class JP3 {
     static calculate(tricep: number, suprailiac: number, thigh: number, age: number): number {
         let sumSkinFolds = tricep + suprailiac + thigh;
         let bodyDensity = 1.0994921 - (0.0009929 * sumSkinFolds) + (0.0000023* sumSkinFolds * sumSkinFolds ) - (0.0001392 * age); 
-        return 495 / bodyDensity - 450;
+        return BodyFat.getPercentageFromDensity(bodyDensity);
     }
 }

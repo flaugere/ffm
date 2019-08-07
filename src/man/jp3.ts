@@ -1,3 +1,5 @@
+import {BodyFat} from '../common/BodyFat'
+
 export default class JP3 {
     /**
      * @param chest number Chest skinfold (mm)
@@ -7,13 +9,9 @@ export default class JP3 {
      * 
      * @returns Body fat percentage
      */
-    static calculate(chest: number, abdominal: number, thigh: number, age: number, rounded: number = 2): number {
-        /**
-         * Body Density = 1.10938 - (0.0008267 * sum of skinfolds) + (0.0000016 * square of the sum of skinfolds) - (0.0002574 * age)
-         * Body Fat Percentage (%) = (495 / Body Density) - 450
-         */
+    static calculate(chest: number, abdominal: number, thigh: number, age: number): number {
         let sumSkinFolds = chest + abdominal + thigh;
         let bodyDensity = 1.10938 - (0.0008267 * sumSkinFolds) + (0.0000016 * sumSkinFolds * sumSkinFolds ) - (0.0002574 * age); 
-        return 495 / bodyDensity - 450;
+        return BodyFat.getPercentageFromDensity(bodyDensity);
     }
 }
