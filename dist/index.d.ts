@@ -1,1 +1,2 @@
-export * from './jp3';
+export * from './man/JP3';
+export * from './woman/JP3';

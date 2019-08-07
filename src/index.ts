@@ -1,2 +1,2 @@
-export * from './man/jp3'
-export * from './woman/jp3'
+export * from './man/JP3'
+export * from './woman/JP3'
