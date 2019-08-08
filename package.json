@@ -22,7 +22,8 @@
     "prepublishOnly": "npm test && npm run lint",
     "build": "tsc -p ./src",
     "test": "jest",
-    "testWithCoverage": "jest --coverage"
+    "testWithCoverage": "jest --coverage",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "@types/jest": "^24.0.17",
