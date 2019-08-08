@@ -3,6 +3,18 @@
   "version": "0.0.1",
   "description": "Body fat algorithms",
   "license": "MIT",
+  "author": {
+    "name": "David FLAUGERE",
+    "email": "flaugere@gmail.com",
+    "url": "http://github.com/flaugere"
+  },
+  "maintainers": [
+    {
+      "name": "David FLAUGERE",
+      "email": "flaugere@gmail.com",
+      "url": "http://github.com/flaugere"
+    }
+  ],
   "scripts": {
     "build": "tsc -p ./src",
     "start": "npm install && tsc -w -p ./src",
@@ -10,7 +22,7 @@
     "testWithCoverage": "jest --coverage"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.16",
+    "@types/jest": "^24.0.17",
     "@types/node": "^6.0.50",
     "eslint": "6.1.0",
     "eslint-config-google": "^0.11.0",
