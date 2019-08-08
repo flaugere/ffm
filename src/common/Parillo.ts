@@ -13,7 +13,7 @@ export default class Parillo {
    *
    * @returns Body fat percentage
    */
-  static calculate(
+  public static calculate(
     chest: number,
     abdominal: number,
     thigh: number,
@@ -25,7 +25,7 @@ export default class Parillo {
     bicep: number,
     weight: number
   ): number {
-    let sumSkinFolds =
+    const sumSkinFolds =
       tricep +
       bicep +
       calf +

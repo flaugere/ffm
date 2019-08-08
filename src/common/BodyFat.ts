@@ -6,7 +6,7 @@ export class BodyFat {
    *
    * @return number
    */
-  static getPercentageFromDensity(bodyDensity: number): number {
+  public static getPercentageFromDensity(bodyDensity: number): number {
     return 495 / bodyDensity - 450;
   }
 }

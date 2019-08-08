@@ -10,14 +10,14 @@ export default class JP4 {
    *
    * @returns Body fat percentage
    */
-  static calculate(
+  public static calculate(
     tricep: number,
     suprailiac: number,
     thigh: number,
     abdominal: number,
     age: number
   ): number {
-    let sumSkinFolds = tricep + suprailiac + thigh + abdominal;
+    const sumSkinFolds = tricep + suprailiac + thigh + abdominal;
     return (
       0.29669 * sumSkinFolds -
       0.00043 * sumSkinFolds * sumSkinFolds +

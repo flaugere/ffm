@@ -9,14 +9,14 @@ export default class JP3 {
    *
    * @returns Body fat percentage
    */
-  static calculate(
+  public static calculate(
     chest: number,
     abdominal: number,
     thigh: number,
     age: number
   ): number {
-    let sumSkinFolds = chest + abdominal + thigh;
-    let bodyDensity =
+    const sumSkinFolds = chest + abdominal + thigh;
+    const bodyDensity =
       1.10938 -
       0.0008267 * sumSkinFolds +
       0.0000016 * sumSkinFolds * sumSkinFolds -

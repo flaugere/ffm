@@ -13,7 +13,7 @@ export default class JP7 {
    *
    * @returns Body fat percentage
    */
-  static calculate(
+  public static calculate(
     tricep: number,
     suprailiac: number,
     thigh: number,
@@ -23,9 +23,9 @@ export default class JP7 {
     subscapular: number,
     age: number
   ): number {
-    let sumSkinFolds =
+    const sumSkinFolds =
       tricep + suprailiac + thigh + abdominal + chest + axillary + subscapular;
-    let bodyDensity =
+    const bodyDensity =
       1.097 -
       0.00046971 * sumSkinFolds +
       0.00000056 * sumSkinFolds * sumSkinFolds -
