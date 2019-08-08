@@ -16,8 +16,11 @@
     }
   ],
   "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p ./src/tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
     "build": "tsc -p ./src",
-    "start": "npm install && tsc -w -p ./src",
     "test": "jest",
     "testWithCoverage": "jest --coverage"
   },
@@ -27,8 +30,12 @@
     "eslint": "6.1.0",
     "eslint-config-google": "^0.11.0",
     "jest": "^24.8.0",
+    "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.3"
   },
+  "main": "dist/index.js",
   "types": "dist/index.d.ts"
 }
