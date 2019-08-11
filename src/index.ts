@@ -1,2 +1,2 @@
-export * from "./man/JP3";
-export * from "./woman/JP3";
+export { Parillo as P } from './common/Parillo';
+export * from './man/JP3';
