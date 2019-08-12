@@ -1,4 +1,4 @@
-import Parillo from "./common/Parillo";
+import { Parillo } from "./common/Parillo";
 import { JP3 as JP3Man } from "./man/JP3";
 import { JP4 as JP4Man } from "./man/JP4";
 import { JP7 as JP7Man } from "./man/JP7";

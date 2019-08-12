@@ -1,4 +1,4 @@
-import Parillo from '../../src/common/Parillo';
+import { Parillo } from '../../src/index';
 
 describe('Parillo', function () {
   it('calculate', function () {

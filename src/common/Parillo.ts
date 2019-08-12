@@ -1,4 +1,4 @@
-export default class Parillo {
+export class Parillo {
   /**
    * @param chest number Skinfold (mm)
    * @param abdominal number Skinfold (mm)
