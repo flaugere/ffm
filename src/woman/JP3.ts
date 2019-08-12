@@ -1,6 +1,6 @@
 import { BodyFat } from "../common/BodyFat";
 
-export default class JP3 {
+export class JP3 {
   /**
    * @param chest number Chest skinfold (mm)
    * @param abdominal number Abdominal skinfold (mm)

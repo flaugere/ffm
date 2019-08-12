@@ -1,6 +1,4 @@
-import { BodyFat } from "../common/BodyFat";
-
-export default class JP4 {
+export class JP4 {
   /**
    * @param tricep number Skinfold (mm)
    * @param suprailiac number Skinfold (mm)
