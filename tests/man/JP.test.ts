@@ -1,6 +1,4 @@
-import JP3 from '../../src/man/JP3';
-import JP4 from '../../src/man/JP4';
-import JP7 from '../../src/man/JP7';
+import { JP3Man as JP3, JP4Man as JP4, JP7Man as JP7 } from '../../src/index';
 
 describe('JP3', function () {
   it('calculate', function () {

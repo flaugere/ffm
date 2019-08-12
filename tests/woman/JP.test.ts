@@ -1,6 +1,4 @@
-import JP3 from '../../src/woman/JP3';
-import JP4 from '../../src/woman/JP4';
-import JP7 from '../../src/woman/JP7';
+import { JP3Woman as JP3, JP4Woman as JP4, JP7Woman as JP7 } from '../../src/index';
 
 describe('JP3', function () {
   it('calculate', function () {
