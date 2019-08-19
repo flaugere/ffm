@@ -15,6 +15,17 @@
       "url": "http://github.com/flaugere"
     }
   ],
+  "keywords": [
+    "bodyfat",
+    "fitness",
+    "parillo",
+    "jp3",
+    "jp4",
+    "jp7",
+    "jackson",
+    "pollock",
+    "skinfold"
+  ],
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p ./src/tsconfig.json",

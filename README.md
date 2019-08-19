@@ -5,12 +5,12 @@ Several algorithms to compute body fat according to skin folds or tape measureme
 
 ## Algorithms
 
-Durnin, JP3, JP4
+Parillo, JP3, JP4, JP7
 
 ## Install
 
 ```
-npm install bodyfatcalculator
+npm install bodyfat
 ```
 
 ## Contributing
