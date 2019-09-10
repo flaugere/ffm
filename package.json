@@ -37,16 +37,16 @@
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.17",
+    "@types/jest": "^24.0.18",
     "@types/node": "^6.0.50",
     "eslint": "6.1.0",
     "eslint-config-google": "^0.11.0",
-    "jest": "^24.8.0",
+    "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
-    "tslint": "^5.18.0",
+    "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts"
