@@ -5,7 +5,7 @@ Several algorithms to compute body fat according to skin folds or tape measureme
 
 ## Algorithms
 
-Parillo, JP3, JP4, JP7
+Parillo, JP3, JP4, JP7, Durnin & Womersley
 
 ## Install
 
