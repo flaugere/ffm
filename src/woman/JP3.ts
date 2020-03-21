@@ -2,8 +2,8 @@ import { BodyFat } from "../common/BodyFat";
 
 export class JP3 {
   /**
-   * @param chest number Chest skinfold (mm)
-   * @param abdominal number Abdominal skinfold (mm)
+   * @param tricep number Tricep skinfold (mm)
+   * @param suprailiac number Suprailiac skinfold (mm)
    * @param thigh number Thigh skinfold (mm)
    * @param age number In years
    *
