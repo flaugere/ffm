@@ -38,12 +38,12 @@
   },
   "devDependencies": {
     "@types/jest": "^24.9.1",
-    "@types/node": "^6.14.11",
+    "@types/node": "^6.14.13",
     "eslint": "^6.1.0",
     "eslint-config-google": "^0.11.0",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
-    "ts-jest": "^24.3.0",
+    "ts-jest": "^26.4.4",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.9.7"
