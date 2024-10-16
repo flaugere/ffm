@@ -1,31 +1,17 @@
-# Body fat algorithms
+## Body Fat Calculation Library
 
-[![CircleCI](https://circleci.com/gh/flaugere/bodyfat.svg?style=svg)](https://circleci.com/gh/flaugere/bodyfat)
-Several algorithms to compute body fat according to skin folds or tape measurements.
+This library provides a set of functions for calculating body fat percentage using various established algorithms.
 
-## Algorithms
+### Inputs
 
-Parillo, JP3, JP4, JP7, Durnin & Womersley
+The library's functions accept various skinfold measurements (in millimeters) and age (in years) as input. The required inputs vary depending on the specific algorithm being used.  For example, the Parillo algorithm requires chest, abdominal, thigh, suprailiac, lower back, tricep, subscapular, calf, bicep skinfolds and weight (in kg) whereas the Durnin algorithm requires tricep, bicep, subscapular, suprailiac skinfolds, and age.
 
-## Install
+### Outputs
 
-```
-npm install bodyfat
-```
+All functions return a single floating-point number representing the calculated body fat percentage.
 
-## Contributing
+### Usage
 
-1) Install GIT 
+This library is likely to be used by developers creating fitness or health-related applications. The functions provide a simple and convenient way to incorporate body fat calculations into these applications. The different algorithms offer flexibility depending on the specific needs of the application, allowing developers to choose the most appropriate method for their use case.
 
-2) Clone repository
-
-```
-git clone git@github.com:flaugere/bodyfat.git
-cd bodyfat
-```
-
-3) Unit test
-
-```
-npm test
-```
+For example, a developer creating a mobile app for tracking fitness progress could use this library to allow users to enter their skinfold measurements and calculate their body fat percentage. The app could then store these results over time, allowing users to track their progress and see how their body composition changes.
